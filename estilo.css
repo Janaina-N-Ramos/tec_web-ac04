@@ -1,0 +1,102 @@
+#area
+{
+  position:relative;
+  left:37%;
+  top:10em;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;   
+}
+ 
+ 
+fieldset
+{
+  background-color:rgba(220, 217, 167, 0.61);
+  width:300px;
+  height:250px;
+}
+legend
+{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:30px;
+  margin-top: 4px;
+}
+#formulario input.campo_nome
+{
+  background-color:rgb(255, 255, 255);
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+
+}
+#formulario input.campo_email
+{ 
+  background-color:rgb(255, 255, 255);
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario input.campo_telefone
+{ 
+  background-color:rgb(255, 255, 255);
+  position:absolute;
+  left:95px;
+  margin-top:6px;
+  width:225px;
+  
+}
+#formulario input.campo_endereco
+{ 
+  background-color:rgb(255, 255, 255);
+  position:absolute;
+  left:95px;
+  margin-top:10px;
+  width:225px;
+  
+}
+#formulario textarea.msg
+{
+  position:absolute;
+  background-color:rgb(255, 255, 255);
+}
+ 
+ 
+#formulario input.btn_submit
+{
+  border-style:dashed;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color: rgb(255, 187, 0);
+  
+}
+#formulario .radio
+{ 
+
+  position:absolute;
+  left:90px;
+  margin-top:10px;
+  width: 10px;
+  
+}
+
+.bg
+
+{
+    background-image: url('fundo.png');
+    background-repeat: no-repeat;
+    background-size:100%; 
+
+}
